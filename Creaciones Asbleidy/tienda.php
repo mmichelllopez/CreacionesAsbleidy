@@ -15,6 +15,7 @@
        <img src="img/marca.png" alt="Logo" height="70px">
     </header>
     <main>
+        
         <div class="page-nav">
             <form action="sesion.php" method="POST">
                 <input type="submit" value="Salir" class="button" name="btncerrar">
