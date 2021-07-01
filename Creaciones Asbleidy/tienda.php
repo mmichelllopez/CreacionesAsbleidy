@@ -88,6 +88,7 @@
                 <h3>Deportivo suela rayas</h3>
                 <img src="img/product-2.jpg" />
                 <h1>$50000</h1>
+                <button id="prueba" onclick="myFunction()">Agregar</button>
                 <input type="checkbox" id="btn-modal">
 	            <label for="btn-modal" class="button-add">Agregar</label>
                 <div class="modal">
@@ -348,4 +349,5 @@
         <h2 class="titulo-final">&copy; Creaciones Asbleidy</h2>
     </footer>
 </body>
+<script src="./carrito.js"></script>
 </html>
