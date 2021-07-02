@@ -79,7 +79,7 @@
                                                                                                 right: 10px;
                                                                                                 top: 160px;
                                                                                                 position: absolute;">
-                            <button class="button-add" onclick="add('product-1', 60000)">Agregar</button>
+                            <button class="button-add" onclick="myFunction(event)">Agregar</button>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                 <h1>$50000</h1>
                 <button id="prueba" onclick="myFunction()">Agregar</button>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
