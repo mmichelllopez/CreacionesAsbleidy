@@ -15,7 +15,7 @@
        <img src="img/marca.png" alt="Logo" height="70px">
     </header>
     <main>
-        
+
         <div class="page-nav">
             <form action="sesion.php" method="POST">
                 <input type="submit" value="Salir" class="button" name="btncerrar">
@@ -107,7 +107,7 @@
                 <img src="img/product-3.jpg" />
                 <h1>$45000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -123,7 +123,7 @@
                 <img src="img/product-4.jpg" />
                 <h1>$45000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -139,7 +139,7 @@
                 <img src="img/product-5.jpg" />
                 <h1>$85000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -155,7 +155,7 @@
                 <img src="img/product-6.jpg" />
                 <h1>$90000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -171,7 +171,7 @@
                 <img src="img/product-7.jpg" />
                 <h1>$35000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -187,7 +187,7 @@
                 <img src="img/product-8.jpg" />
                 <h1>$35000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -203,7 +203,7 @@
                 <img src="img/product-9.jpg" />
                 <h1>$45000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -219,7 +219,7 @@
                 <img src="img/product-10.jpg" />
                 <h1>$35000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -235,7 +235,7 @@
                 <img src="img/product-11.jpg" />
                 <h1>$42000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -251,7 +251,7 @@
                 <img src="img/product-12.jpg" />
                 <h1>$40000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -267,7 +267,7 @@
                 <img src="img/product-13.jpg" />
                 <h1>$38000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -283,7 +283,7 @@
                 <img src="img/product-14.jpg" />
                 <h1>$38000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -299,7 +299,7 @@
                 <img src="img/product-15.jpg" />
                 <h1>$43000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
@@ -315,7 +315,7 @@
                 <img src="img/product-16.jpg" />
                 <h1>$43000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione la talla y el color</header>
