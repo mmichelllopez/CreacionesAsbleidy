@@ -28,7 +28,7 @@
                 <img src="img/product-1.jpg" />
                 <h1>$60000</h1>
                 <input type="checkbox" id="btn-modal">
-	            <label for="btn-modal" class="button-add">Agregar</label>
+	            <label for="btn-modal" onclick="eventmodal(event)" class="button-add">Agregar</label>
                 <div class="modal">
                     <div class="contenedor">
                         <header>Seleccione el color, la talla y la cantidad</header>
